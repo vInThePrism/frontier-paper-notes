@@ -9,6 +9,7 @@ Each note starts from the question the paper answers, explains the mechanism in 
 | Paper | Venue | Question | Note |
 |---|---|---|---|
 | Syncopate: Efficient Multi-GPU AI Kernels via Automatic Chunk-Centric Compute-Communication Overlap | OSDI '26 | Why move compute–communication overlap inside a kernel, and how can a compiler generate it automatically? | [notes/2026-osdi-syncopate.md](notes/2026-osdi-syncopate.md) |
+| Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts | MLSys '25 | Why is chunk-level pipelining not enough for MoE, and how can overlap reach tile granularity without slowing the expert GEMMs? | [notes/2025-mlsys-comet.md](notes/2025-mlsys-comet.md) |
 
 ## How each note is organized
 
